@@ -14,15 +14,35 @@ div{
   position: relative;
 }*/
 
-* {
+body * {
     padding: 10px;
     border: 1px solid black;
     margin: 10px;
 }
 
+body {
+    box-sizing: border-box;
+}
 
-nav {}
+nav {
+    /*position: fixed;*/
+    /*width: 100%;*/
+    background-color: grey;
+}
 
 .gregs-list, .links {
+    display: inline-block;
+}
+
+.links {
+    position: relative;
+    right: -43%;
+}
+
+
+form label{
+    display: block;
+}
+form input, form button {
     display: inline-block;
 }
