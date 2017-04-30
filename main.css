@@ -1,0 +1,28 @@
+/*nav{
+  display: block;
+  height: 3%;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+}
+form {
+  display: block;
+  position: absolute;
+  margin-top: 10%;
+}
+div{
+  position: relative;
+}*/
+
+* {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+nav {}
+
+.gregs-list, .links {
+    display: inline-block;
+}
