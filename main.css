@@ -21,12 +21,14 @@ body * {
 
 body {
     box-sizing: border-box;
+    margin: 0;
 }
 
 nav {
-    /*position: fixed;*/
-    /*width: 100%;*/
-    background-color: grey;
+    position: fixed;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid grey;
 }
 
 .gregs-list, .links {
@@ -41,11 +43,13 @@ nav {
 .links {
     font-size: 125%;
     position: relative;
-    right: -75%;
+    right: -60%;
 }
 
 form label {
+    margin-top: 70px;
     display: block;
+    margin-left: -1%;
 }
 
 form input, form img {
@@ -55,16 +59,18 @@ form input, form img {
 
 form input {
     font-size: 90%;
-    width: 89%;
+    border-radius: 3px;
+    width: 400px;
+    border: 2px solid grey;
 }
 
 form img {
     height: 17px;
-    width: 20px;
+    width: 17px;
     border: 2px solid grey;
     border-radius: 5px;
     position: absolute;
-    left: 91%;
+    left: 54%;
 }
 
 .nav-links {
@@ -85,6 +91,10 @@ form img {
 
 a:link {
     color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
 }
 
 .prev, .out-of, .next {
